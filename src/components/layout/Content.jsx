@@ -18,13 +18,13 @@ const Content = (props) => (
     <Routes>
       <Route path="/" exact element={<Home />}></Route>
       <Route path="/useState" exact element={<UseState />}></Route>
-      <Route path="/useEffect" exact element={<useEffect />}></Route>
-      <Route path="/useRef" exact element={<useRef />}></Route>
-      <Route path="/useCallback" exact element={<useCallback />}></Route>
-      <Route path="/useMemo" exact element={<useMemo />}></Route>
-      <Route path="/useContext" exact element={<useContext />}></Route>
-      <Route path="/useReducer" exact element={<useReducer />}></Route>
-      <Route path="/useCustom" exact element={<useCustom />}></Route>
+      <Route path="/UseEffect" exact element={<UseEffect />}></Route>
+      <Route path="/UseRef" exact element={<UseRef />}></Route>
+      <Route path="/UseCallback" exact element={<UseCallback />}></Route>
+      <Route path="/UseMemo" exact element={<UseMemo />}></Route>
+      <Route path="/UseContext" exact element={<UseContext />}></Route>
+      <Route path="/UseReducer" exact element={<UseReducer/>}></Route>
+      <Route path="/UseCustom" exact element={<UseCustom />}></Route>
       <Route path="*" element={<NotFound />} />
     </Routes>
   </main>
